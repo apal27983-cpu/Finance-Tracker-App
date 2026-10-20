@@ -4,3 +4,5 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 
 .transaction-empty{min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px 18px}.transaction-empty .empty-icon{width:46px;height:46px;border-radius:14px;margin-bottom:8px}.transaction-empty h3{margin:2px 0 0;font:700 15px Manrope,sans-serif;color:#34443a}.transaction-empty p{max-width:340px;margin:7px 0 14px;color:#8d9990;font-size:11px;line-height:1.6}.chart-period-label{font-size:9px;color:#78847b;border:1px solid #e9ede9;border-radius:6px;padding:7px 9px}
+.offline-banner{position:sticky;top:68px;z-index:4;padding:9px 18px;text-align:center;background:#fff4dc;color:#755a1c;border-bottom:1px solid #f0dfb6;font-size:12px}.install-button{white-space:nowrap}
+@media(max-width:600px){.offline-banner{top:59px;font-size:10px}.install-button{font-size:10px!important;padding:7px 9px!important}.install-button svg{width:14px!important}}
